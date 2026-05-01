@@ -46,7 +46,7 @@ model = genai.GenerativeModel('gemini-3-flash-preview')
 
 # --- 3. ส่วน UI - Sidebar (รับข้อมูล) ---
 with st.sidebar:
-    st.image("https://res.cloudinary.com/dnl6bhmku/image/upload/v1736757350/samples/cup-on-a-table.jpg) # ไอคอนสวยๆ
+    st.image("https://res.cloudinary.com/dnl6bhmku/image/upload/v1736757350/samples/cup-on-a-table.jpg") # ไอคอนสวยๆ
     st.markdown('<p class="big-font">📝 เมนูการตรวจ</p>', unsafe_allow_html=True)
     st.write("วางบทความของคุณลงในช่องด้านล่าง แล้วกดปุ่มเพื่อเริ่มตรวจครับ")
 
